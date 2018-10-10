@@ -30,9 +30,7 @@ namespace Lab_4
                     Console.WriteLine("{0}^{1} = {2:N0}",
                         num, power, (long) Math.Pow(num, power) * power);
 
-                DataTable dt = new DataTable();
-                dt.Columns.Add("Squared", typeof(int));
-                dt.Columns.Add("Cubed", typeof(int));
+                
 
 
 
